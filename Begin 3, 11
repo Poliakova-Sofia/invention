@@ -1,0 +1,51 @@
+#include <iostream>
+using namespace std;
+
+int main ()
+{ // begin
+    //calculation of the square S and perimeter P by two variables a and b
+    float a; // declaration of the length
+    float b; // declaration of the width
+    cout << "  Begin 3  " << endl;
+    // input
+    cout << " a : "; // number for the length
+    cin >> a;
+    cout << " b : "; // number for the width
+    cin >> b;
+    
+    // calculation of the perimeter
+    float res = a*b;
+    
+    // output (results of the perimeter)
+    cout << " P = a*b = "<< res << endl;
+    
+    // calculation of the square
+    float resul = 2*(a+b);
+    
+    // output (results of the square)
+    cout << " S = 2*(a+b) = " << resul << endl;
+    
+    //calculation of the radius R and area of a circle S by the variable L and the number π = 3.14
+    cout << "  Begin 11  " << endl;
+    float L; // declaration of the lenght of the circle
+    const double pi(3.14); // declaration of the number π = 3.14
+    
+    //input
+    cout << " L = "; // number for the lenght of the circle
+    cin >> L;
+    
+    //calculation of the Radius
+    float result = 2*pi / L;
+    
+    // output (results of the Radius)
+    cout << " R = 2*pi / L = " << result << endl;
+    
+    // calculation of the circle square
+    float results = pi*result*result;
+    
+    // output (results of the circle square)
+    cout << " S = pi*R*R = " << results;
+    
+    return 0;
+    
+} // end
